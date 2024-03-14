@@ -10,7 +10,7 @@ const Navbar=()=> {
     
 
   return (
-    <div className=' max-h-20 flex justify-between bg-orange-50'>
+    <div className=' max-auto px-40  flex justify-between bg-orange-50'>
         <div className='nav-left'>
             <Link to='/' className='logo'>
             <img width="50" height="50" src="https://assets-global.website-files.com/6369a6904656314914c2bae2/6369a8d295be04a841e17ea5_logo.svg" alt="bookmark-ribbon--v1"/>    
