@@ -29,9 +29,10 @@ const Navbar=()=> {
                             <Link to='/' class='mt-2 text-left tracking-wider'>New Releases</Link>
                             <Link to='/' class='mt-2 text-left tracking-wider'>Popular Genres</Link>
                             <div className=''>
-                                <div class='mt-10  '>
-                                    <button class=" hover:bg-orange-200 ...   rounded-lg mx-5">
-                                    <p class='text-sm text-orange-600 mx-6 my-4 tracking-wider '>Browse all </p>
+                                <div class='mt-10   '>
+                                    <button class=" hover:bg-orange-1  ...   rounded-lg mx-0">
+                                    <p class='text-bold  text-orange-600 px-6 py-4 tracking-wider '>Browse all </p>
+
                                     </button>
                                 </div>  
                             </div>
