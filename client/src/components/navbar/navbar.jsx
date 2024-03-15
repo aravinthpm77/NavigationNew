@@ -24,13 +24,13 @@ const Navbar=()=> {
                 <div className=" mx-120 my-100 ">
                     <div className='absolute flex bg-slate-50 rounded-xl  border border-stone-300   left-40 my-10 mx-48 py-2  w-21 shadow-lg  scale-90'  >
                         <div class='m-10 grid gap-0.5  '>
-                            <h5 class='text-0.5xl font-semibold leading-6 text-gray-900 text-left tracking-wider'>EXPLORE</h5>
-                            <Link to='/' class='mt-2 text-left tracking-wider'>Bestsellers</Link>
-                            <Link to='/' class='mt-2 text-left tracking-wider'>New Releases</Link>
-                            <Link to='/' class='mt-2 text-left tracking-wider'>Popular Genres</Link>
+                            <h5 class='text-0.5xl font-semibold leading-6 text-gray-900 text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>EXPLORE</h5>
+                            <Link to='/' class='mt-2 text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Bestsellers</Link>
+                            <Link to='/' class='mt-2 text-left tracking-wider h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>New Releases</Link>
+                            <Link to='/' class='mt-2 text-left tracking-wider h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Popular Genres</Link>
                             <div className=''>
                                 <div class='mt-10   '>
-                                    <button class=" hover:bg-orange-1  ...   rounded-lg mx-0">
+                                    <button class=" hover:bg-orange-100  ...   rounded-lg mx-0">
                                     <p class='text-bold  text-orange-600 px-6 py-4 tracking-wider '>Browse all </p>
 
                                     </button>
@@ -39,12 +39,12 @@ const Navbar=()=> {
                         </div>
 
                         <div className='dropdown-mid m-10 grid gap-1 text-left mr-20' >
-                            <h5 className='text-left text-0.5xl   font-semibold  text-gray-900 tracking-wider '>LIBRARIES</h5>
-                            <Link to='/' className='text-left tracking-wider'>Browse</Link>
-                            <Link to='/' className='text-left tracking-wider'>Membership</Link>
-                            <Link to='/' className='text-left tracking-wider'>Accessibility</Link>
-                            <Link to='/' className='text-left tracking-wider'>Benefits</Link>
-                            <Link to='/' className='text-left tracking-wider'>Membership</Link>
+                            <h5 className='text-left text-0.5xl   font-semibold  text-gray-900 tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>LIBRARIES</h5>
+                            <Link to='/' className='text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Browse</Link>
+                            <Link to='/' className='text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Membership</Link>
+                            <Link to='/' className='text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Accessibility</Link>
+                            <Link to='/' className='text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Benefits</Link>
+                            <Link to='/' className='text-left tracking-wider  h-12 py-3 px-6 transition-all duration-300   hover:bg-stone-200 rounded-lg '>Membership</Link>
                             
                         </div> 
                         <div class='grid overflow-hidden my-3 mx-4 rounded-xl '>
